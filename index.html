@@ -61,7 +61,49 @@
         <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Submit</button>
       </form>
     </section>
-  </main>
+<section class="p-6 mt-6 bg-white shadow-md">
+  <h2 class="text-2xl font-semibold text-center mb-4">Portfolio</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    <img src="https://via.placeholder.com/400x300?text=Move+1" class="w-full rounded-lg shadow" alt="Project 1">
+    <img src="https://via.placeholder.com/400x300?text=Move+2" class="w-full rounded-lg shadow" alt="Project 2">
+    <img src="https://via.placeholder.com/400x300?text=Handyman+1" class="w-full rounded-lg shadow" alt="Handyman">
+    <img src="https://via.placeholder.com/400x300?text=Clean+Job" class="w-full rounded-lg shadow" alt="Cleaning">
+    <img src="https://via.placeholder.com/400x300?text=Move+3" class="w-full rounded-lg shadow" alt="Move">
+    <img src="https://via.placeholder.com/400x300?text=Final+Setup" class="w-full rounded-lg shadow" alt="Setup">
+  </div>
+</section>
+
+<section class="p-6 mt-6 bg-gray-50">
+  <h2 class="text-2xl font-semibold text-center mb-4">What Our Clients Say</h2>
+  <div class="grid md:grid-cols-3 gap-4">
+    <div class="bg-white p-4 rounded shadow">
+      <p>"Shark Moving made our transition effortless! Highly professional team!"</p>
+      <p class="mt-2 font-semibold">— Sarah L.</p>
+    </div>
+    <div class="bg-white p-4 rounded shadow">
+      <p>"The handyman service was top-notch. Everything fixed in one visit."</p>
+      <p class="mt-2 font-semibold">— Mike T.</p>
+    </div>
+    <div class="bg-white p-4 rounded shadow">
+      <p>"Impressed with the cleaning service. My apartment looked brand new."</p>
+      <p class="mt-2 font-semibold">— Julia A.</p>
+    </div>
+  </div>
+</section>
+
+<section class="p-6 bg-white shadow-md mt-6">
+  <h2 class="text-xl font-semibold mb-4 text-center">Get a Free Quote</h2>
+  <form action="https://formspree.io/f/mqaqpway" method="POST" class="max-w-2xl mx-auto space-y-4">
+    <input class="w-full p-2 border rounded" type="text" name="name" placeholder="Your Name" required />
+    <input class="w-full p-2 border rounded" type="email" name="email" placeholder="Your Email" required />
+    <input class="w-full p-2 border rounded" type="tel" name="phone" placeholder="Phone Number" required />
+    <input class="w-full p-2 border rounded" type="text" name="from" placeholder="Moving From Address" required />
+    <input class="w-full p-2 border rounded" type="text" name="to" placeholder="Moving To Address" required />
+    <textarea class="w-full p-2 border rounded" name="message" placeholder="Additional Details"></textarea>
+    <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Send Request</button>
+  </form>
+</section>
+</main>
 
   <footer class="bg-slate-800 text-white text-center p-4 mt-6">
     © 2025 Shark Moving & Home Service Solution
